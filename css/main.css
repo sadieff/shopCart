@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500|Open+Sans:300,400,600,700&subset=cyrillic');
+.cart {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.cert-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.cart-item {
+    background: rgba(0, 150, 136, 0.1);
+    color: #011b2f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    padding: 10px 50px 10px 15px;
+    position: relative;
+}
+.cart-item_title {
+    font-size: 20px;
+    font-weight: 600;
+    min-width: 50%;
+}
+.cert-item_price span {
+    font-size: 21px;
+    font-weight: 700;
+}
+.cert-item_delete:before {
+    content: '×';
+    font-size: 34px;
+}
+.cert-item_delete {
+    cursor: pointer;
+    font-size: 0;
+    position: absolute;
+    right: 15px;
+}
+.cert-item_price {
+    padding-right: 20px;
+}
+.cert-item_quantity {
+    display: flex;
+    justify-content: space-between;
+}
+.cert-item_quantity input {
+    background: transparent;
+    border: 1px solid rgba(22, 64, 115, 0.08);
+    border-radius: 4px;
+    line-height: 30px;
+    color: #13619e;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    max-width: 43px;
+}
+.cert-item_quantity-btn {
+    border: 1px solid #d5e6e9;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 21px;
+    line-height: 29px;
+    height: 30px;
+    text-align: center;
+    margin: 0 7px;
+    width: 30px;
+}
+.cert-total {
+    font-size: 20px;
+    padding: 40px 0 60px;
+    text-align: right;
+}
+.cert-total span {
+    font-size: 26px;
+    font-weight: 700;
+}
+.cert-total_buttons {
+    text-align: right;
+}
+.cert-total_apply {
+    background: #095375;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
