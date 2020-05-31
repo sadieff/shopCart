@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/shopcart.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
 
     <div class="cart">
 
-        <div class="cert-title">
+        <div class="cart-title">
             Корзина
         </div>
 
@@ -25,15 +26,15 @@
             <div class="cart-item_title">
                 Apple iPhone 11 256GB
             </div>
-            <div class="cert-item_quantity">
-                <div class="cert-item_quantity-btn cert-minus_js">-</div>
-                <input type="text" name="quantity" class="cert-quantity_js" value="1">
-                <div class="cert-item_quantity-btn cert-plus_js">+</div>
+            <div class="cart-item_quantity">
+                <div class="cart-item_quantity-btn cart-minus_js">-</div>
+                <input type="text" name="quantity" class="cart-quantity_js" value="1">
+                <div class="cart-item_quantity-btn cart-plus_js">+</div>
             </div>
-            <div class="cert-item_price">
-                <span class="cert-sum_js" data-unit-price="98000">98 000</span> руб.
+            <div class="cart-item_price">
+                <span class="cart-sum_js" data-unit-price="98000">98 000</span> руб.
             </div>
-            <div class="cert-item_delete cert-delete_js">
+            <div class="cart-item_delete cart-delete_js">
                 Удалить
             </div>
         </div>
@@ -42,15 +43,15 @@
             <div class="cart-item_title">
                 Apple iPhone 8 64GB
             </div>
-            <div class="cert-item_quantity">
-                <div class="cert-item_quantity-btn cert-minus_js">-</div>
-                <input type="text" name="quantity" class="cert-quantity_js" value="1">
-                <div class="cert-item_quantity-btn cert-plus_js">+</div>
+            <div class="cart-item_quantity">
+                <div class="cart-item_quantity-btn cart-minus_js">-</div>
+                <input type="text" name="quantity" class="cart-quantity_js" value="1">
+                <div class="cart-item_quantity-btn cart-plus_js">+</div>
             </div>
-            <div class="cert-item_price">
-                <span class="cert-sum_js" data-unit-price="42000">42 000</span> руб.
+            <div class="cart-item_price">
+                <span class="cart-sum_js" data-unit-price="42000">42 000</span> руб.
             </div>
-            <div class="cert-item_delete cert-delete_js">
+            <div class="cart-item_delete cart-delete_js">
                 Удалить
             </div>
         </div>
@@ -59,33 +60,33 @@
             <div class="cart-item_title">
                 Apple iPhone 10 64GB
             </div>
-            <div class="cert-item_quantity">
-                <div class="cert-item_quantity-btn cert-minus_js">-</div>
-                <input type="text" name="quantity" class="cert-quantity_js" value="1">
-                <div class="cert-item_quantity-btn cert-plus_js">+</div>
+            <div class="cart-item_quantity">
+                <div class="cart-item_quantity-btn cart-minus_js">-</div>
+                <input type="text" name="quantity" class="cart-quantity_js" value="1">
+                <div class="cart-item_quantity-btn cart-plus_js">+</div>
             </div>
-            <div class="cert-item_price">
-                <span class="cert-sum_js" data-unit-price="60000">60 000</span> руб.
+            <div class="cart-item_price">
+                <span class="cart-sum_js" data-unit-price="60000">60 000</span> руб.
             </div>
-            <div class="cert-item_delete cert-delete_js">
+            <div class="cart-item_delete cart-delete_js">
                 Удалить
             </div>
         </div>
 
-        <div class="cert-total">
-            <span class="cert-total_js">200 000</span> руб.
+        <div class="cart-total">
+            <span class="cart-total_js">200 000</span> руб.
         </div>
 
-        <form action="" class="cert_form_js">
+        <form action="" class="cart_form_js">
 
             <input type="hidden" name="type" value="сheckout">
 
-            <div class="cert-delivery">
+            <div class="cart-delivery">
                 <label>
                     <input type="radio" name="delivery" value="1" checked> Самовывоз
                 </label>
             </div>
-            <div class="cert-pay">
+            <div class="cart-pay">
                 <label>
                     <input type="radio" name="pay" value="1" checked> Оплата при получении
                 </label>
@@ -93,8 +94,8 @@
         </form>
 
 
-        <div class="cert-total_buttons cert-apply_js">
-            <div class="cert-total_apply">
+        <div class="cart-total_buttons cart-apply_js">
+            <div class="cart-total_apply">
                 Оформить заказ
             </div>
         </div>
